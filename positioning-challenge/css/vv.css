@@ -1,0 +1,139 @@
+#header-color {
+	text-align: center;
+	padding: 0px;
+	margin-top: 0px;
+}
+title {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+body {
+	background-color: #c0c3ca;
+	border-color: black;
+	border-style: double;
+	font-size: 14px;
+	color: black;
+	margin: 0;
+}
+
+article {
+	border-left: 150;
+	border-right: 150;
+	margin-left: 90px;
+	margin-right: 300px;
+	padding: 10px;
+}
+footer {
+	margin-left: 90px;
+	margin-right: 300px;
+	padding: 10px;
+	margin-bottom: 10px;
+	background-color: #3b4552;
+}
+label {
+	display: flex;
+	width: 90px;
+}
+.submit {
+	color: #c0c3ca;
+	font-weight: bolder;
+	background-color: #3b4552;
+	flood-opacity: 1px;
+}
+.reset {
+	color: #c0c3ca;
+	font-weight: bolder;
+	background-color: #3b4552;
+	flood-opacity: 1px;
+}
+.linked {
+	width: 3%;
+	height: 3%;
+	margin-left: 1%;
+	margin-top: 5px;
+	filter: grayscale(0%);
+}
+.linked:hover {
+	transform: rotate(360deg);
+	filter: hue-rotate(250deg);
+	transition: 0.4s;
+}
+.banner-container {
+	background-image: url("my-image-directory/banner.jpg");
+	background-size: cover;
+	padding: 100px;
+	margin-top: 0%;
+	
+}
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	max-width: 100%;
+	width: 30%;
+	border-radius: 50%;
+}
+img:hover {
+	transform: rotate(360deg);
+	transition: 0.4s;
+}
+.nav-link {
+	color: black;
+}
+.nav-link:hover {
+	color:#3b4552;
+	text-decoration: none;
+}
+button:hover {
+	background-color: rgb(219, 191, 63);
+	text-decoration: none;
+}
+#navbar {
+	background-color: rgb(23, 23, 23);
+	color: white;
+	text-align: center;
+	font-size: 12px;
+	}
+.nav-link {
+	text-decoration: none;
+	color: white;
+	margin: 0 2vw;
+
+}
+#Education {
+	margin-top: 4rem;
+}
+h1 {
+	color: black;
+	font-family: arial, helvetica, "sans serif";
+	font-size: 12px;
+	margin-top: 0px;
+	line-height: 44px;
+	padding: 1px 1px 1px;
+}
+h3 {
+	color: black;
+	font-family: arial, helvetica, "sans serif";
+	font-size: 10px;
+	margin-top: 0px;
+	padding: 1px 1px 1px;
+}
+
+h1 {
+	color: black;
+	font-family: arial, helvetica, "sans serif";
+	font-size: 12px;
+	margin-top: 0px;
+	line-height: 44px;
+	padding: 15px 15px 10px;
+}
+
+p {
+	color: black;
+	padding: 15px;
+}
+h4 {
+	color: black;
+}
